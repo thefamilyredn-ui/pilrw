@@ -122,7 +122,7 @@
                     <img id="user-avatar" src="https://ui-avatars.com/api/?name=Panitia+RW&background=6366f1&color=fff" class="w-10 h-10 rounded-full object-cover" alt="Avatar">
                     <div class="flex-1 min-w-0">
                         <p class="text-sm font-semibold text-white truncate" id="user-display-name">Panitia Utama</p>
-                        <p class="text-xs text-slate-400 truncate" id="user-email-display">rw011@pemilihan.id</p>
+                        <p class="text-xs text-slate-400 truncate" id="user-email-display">rw05@pemilihan.id</p>
                     </div>
                     <button type="button" onclick="event.stopPropagation(); handleLogout()" title="Keluar / Logout" class="text-slate-400 hover:text-red-400 transition p-1">
                         <i class="fa-solid fa-right-from-bracket"></i>
@@ -350,7 +350,7 @@
                                 <div class="space-y-3 text-sm text-slate-600">
                                     <div>
                                         <strong class="text-slate-800 block mb-1">Visi:</strong>
-                                        <p class="kandidat-visi bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs">Mewujudkan RW 011 yang Aman, Rukun, Transparan, dan Berbasis Digital.</p>
+                                        <p class="kandidat-visi bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs">Mewujudkan RW 05 yang Aman, Rukun, Transparan, dan Berbasis Digital.</p>
                                     </div>
                                     <div>
                                         <strong class="text-slate-800 block mb-1">Program Unggulan:</strong>
@@ -392,7 +392,7 @@
                                 <div class="space-y-3 text-sm text-slate-600">
                                     <div>
                                         <strong class="text-slate-800 block mb-1">Visi:</strong>
-                                        <p class="kandidat-visi bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs">Membangun Lingkungan RW 011 yang Mandiri, Sejahtera, dan Bermartabat.</p>
+                                        <p class="kandidat-visi bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs">Membangun Lingkungan RW 05 yang Mandiri, Sejahtera, dan Bermartabat.</p>
                                     </div>
                                     <div>
                                         <strong class="text-slate-800 block mb-1">Program Unggulan:</strong>
@@ -480,12 +480,11 @@
                                     <option value="RT 05">RT 05</option>
                                 </select>
 								
-			<select id="filter-status-select" onchange="filterDPTTable()" class="bg-slate-50 border border-slate-200 text-slate-700 text-sm rounded-xl px-3 py-2 focus:outline-none">
-    <option value="">Semua Status Suara</option>
-    <option value="Sudah Memilih">Suara Masuk (Sudah Memilih)</option>
-    <option value="Belum Memilih">Belum Memilih</option>
-</select>					
-								
+                                <select id="filter-status-select" onchange="filterDPTTable()" class="bg-slate-50 border border-slate-200 text-slate-700 text-sm rounded-xl px-3 py-2 focus:outline-none">
+                                    <option value="">Semua Status Suara</option>
+                                    <option value="Sudah Memilih">Suara Masuk (Sudah Memilih)</option>
+                                    <option value="Belum Memilih">Belum Memilih</option>
+                                </select>					
                             </div>
                             <div class="flex space-x-2 w-full md:w-auto justify-end flex-wrap gap-y-2">
                                 <button type="button" onclick="exportExcelDPT()" class="bg-emerald-700 hover:bg-emerald-800 text-white px-4 py-2 rounded-xl text-sm font-medium transition flex items-center">
@@ -782,8 +781,8 @@
                                     <h2 class="text-xl font-extrabold text-slate-900" id="profile-card-name">Panitia Utama</h2>
                                     <span class="px-3 py-1 bg-indigo-50 text-indigo-700 border border-indigo-100 rounded-full text-xs font-bold self-center sm:self-auto"><i class="fa-solid fa-user-shield mr-1"></i> Administrator Sistem</span>
                                 </div>
-                                <p class="text-xs text-slate-500" id="profile-card-email">rw011@pemilihan.id</p>
-                                <p class="text-xs text-slate-400 mt-2"><i class="fa-solid fa-location-dot mr-1"></i> Panitia Pemilihan E-PilRW 011</p>
+                                <p class="text-xs text-slate-500" id="profile-card-email">rw05@pemilihan.id</p>
+                                <p class="text-xs text-slate-400 mt-2"><i class="fa-solid fa-location-dot mr-1"></i> Panitia Pemilihan E-PilRW 05</p>
                             </div>
                         </div>
 
@@ -800,7 +799,7 @@
                                     </div>
                                     <div>
                                         <span class="text-slate-400 block mb-0.5">Email Penyelenggara</span>
-                                        <p class="font-semibold text-slate-800 text-sm" id="profile-detail-email">rw011@pemilihan.id</p>
+                                        <p class="font-semibold text-slate-800 text-sm" id="profile-detail-email">rw05@pemilihan.id</p>
                                     </div>
                                     <div>
                                         <span class="text-slate-400 block mb-0.5">Jabatan / Role</span>
@@ -808,7 +807,7 @@
                                     </div>
                                     <div>
                                         <span class="text-slate-400 block mb-0.5">Wilayah Pemilihan</span>
-                                        <p class="font-semibold text-slate-800 text-sm" id="profile-detail-wilayah">RW 011 Kelurahan Sukamaju</p>
+                                        <p class="font-semibold text-slate-800 text-sm" id="profile-detail-wilayah">RW 05 Kelurahan Sukamaju</p>
                                     </div>
                                 </div>
                             </div>
@@ -845,7 +844,7 @@
                         <form onsubmit="simpanPengaturan(event)" class="space-y-4">
                             <div>
                                 <label class="block text-xs font-semibold text-slate-600 mb-1">Nama RW / Wilayah</label>
-                                <input type="text" id="setting-nama-rw" value="RW 011 Kelurahan Sukamaju" class="w-full px-4 py-2 border rounded-xl text-sm focus:ring-2 focus:ring-indigo-500 outline-none">
+                                <input type="text" id="setting-nama-rw" value="RW 05 Kelurahan Sukamaju" class="w-full px-4 py-2 border rounded-xl text-sm focus:ring-2 focus:ring-indigo-500 outline-none">
                             </div>
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <div>
@@ -876,6 +875,22 @@
                 </div>
 
             </main>
+        </div>
+    </div>
+
+    <!-- ==================== MODAL PERINGATAN MODERN (GLOBAL NOTIFICATION & CONFIRMATION) ==================== -->
+    <div id="modern-alert-modal" class="fixed inset-0 bg-slate-950/70 backdrop-blur-sm z-50 flex items-center justify-center hidden">
+        <div class="bg-white rounded-3xl max-w-sm w-full p-6 shadow-2xl border border-slate-100 text-center mx-4 space-y-4 transform transition-all scale-95 opacity-0" id="modern-alert-box">
+            <div id="modern-alert-icon-wrapper" class="w-16 h-16 rounded-2xl flex items-center justify-center text-2xl mx-auto shadow-md">
+                <i id="modern-alert-icon" class="fa-solid"></i>
+            </div>
+            <div>
+                <h3 id="modern-alert-title" class="text-lg font-black text-slate-900">Pemberitahuan</h3>
+                <p id="modern-alert-message" class="text-xs text-slate-500 mt-1 leading-relaxed">Pesan peringatan sistem.</p>
+            </div>
+            <div id="modern-alert-actions" class="grid grid-cols-1 gap-2 pt-2">
+                <button type="button" id="modern-alert-btn-ok" onclick="closeModernAlert()" class="py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl text-xs transition shadow-lg shadow-indigo-600/30">Mengerti</button>
+            </div>
         </div>
     </div>
 
@@ -989,7 +1004,7 @@
                 <div>
                     <span id="confirm-candidate-no" class="px-2 py-0.5 bg-indigo-600 text-white rounded text-[10px] font-bold"></span>
                     <h4 id="confirm-candidate-name" class="font-bold text-white text-base mt-0.5"></h4>
-                    <p class="text-xs text-slate-400">Kandidat Ketua RW 011</p>
+                    <p class="text-xs text-slate-400">Kandidat Ketua RW 05</p>
                 </div>
             </div>
 
@@ -1249,6 +1264,95 @@
         const STORAGE_KEY_AUTH = 'epilrw_auth';
         const STORAGE_KEY_CREDENTIALS = 'epilrw_credentials';
 
+        // ==================== HELPER MODERN ALERT / WARNING SYSTEM ====================
+        function showModernAlert(title, message, type = 'success', callback = null) {
+            const modal = document.getElementById('modern-alert-modal');
+            const box = document.getElementById('modern-alert-box');
+            const titleEl = document.getElementById('modern-alert-title');
+            const msgEl = document.getElementById('modern-alert-message');
+            const iconEl = document.getElementById('modern-alert-icon');
+            const iconWrap = document.getElementById('modern-alert-icon-wrapper');
+            const actionsEl = document.getElementById('modern-alert-actions');
+
+            titleEl.innerText = title;
+            msgEl.innerText = message;
+            actionsEl.innerHTML = `<button type="button" id="modern-alert-btn-ok" class="py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl text-xs transition shadow-lg shadow-indigo-600/30">Mengerti</button>`;
+
+            iconWrap.className = "w-16 h-16 rounded-2xl flex items-center justify-center text-2xl mx-auto shadow-md";
+
+            if (type === 'success') {
+                iconEl.className = "fa-solid fa-circle-check text-emerald-600";
+                iconWrap.classList.add('bg-emerald-50');
+            } else if (type === 'error') {
+                iconEl.className = "fa-solid fa-triangle-exclamation text-rose-600";
+                iconWrap.classList.add('bg-rose-50');
+            } else if (type === 'warning') {
+                iconEl.className = "fa-solid fa-circle-exclamation text-amber-600";
+                iconWrap.classList.add('bg-amber-50');
+            } else {
+                iconEl.className = "fa-solid fa-circle-info text-indigo-600";
+                iconWrap.classList.add('bg-indigo-50');
+            }
+
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                box.classList.remove('scale-95', 'opacity-0');
+                box.classList.add('scale-100', 'opacity-100');
+            }, 10);
+
+            document.getElementById('modern-alert-btn-ok').onclick = function() {
+                closeModernAlert();
+                if (callback) callback();
+            };
+        }
+
+        function showModernConfirm(title, message, confirmText = 'Ya, Lanjutkan', cancelText = 'Batal', onConfirm) {
+            const modal = document.getElementById('modern-alert-modal');
+            const box = document.getElementById('modern-alert-box');
+            const titleEl = document.getElementById('modern-alert-title');
+            const msgEl = document.getElementById('modern-alert-message');
+            const iconEl = document.getElementById('modern-alert-icon');
+            const iconWrap = document.getElementById('modern-alert-icon-wrapper');
+            const actionsEl = document.getElementById('modern-alert-actions');
+
+            titleEl.innerText = title;
+            msgEl.innerText = message;
+            iconEl.className = "fa-solid fa-circle-question text-indigo-600";
+            iconWrap.className = "w-16 h-16 rounded-2xl flex items-center justify-center text-2xl mx-auto shadow-md bg-indigo-50";
+
+            actionsEl.innerHTML = `
+                <div class="grid grid-cols-2 gap-2">
+                    <button type="button" id="modern-confirm-btn-cancel" class="py-3 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold rounded-2xl text-xs transition">${cancelText}</button>
+                    <button type="button" id="modern-confirm-btn-yes" class="py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl text-xs transition shadow-lg shadow-indigo-600/30">${confirmText}</button>
+                </div>
+            `;
+
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                box.classList.remove('scale-95', 'opacity-0');
+                box.classList.add('scale-100', 'opacity-100');
+            }, 10);
+
+            document.getElementById('modern-confirm-btn-cancel').onclick = function() {
+                closeModernAlert();
+            };
+
+            document.getElementById('modern-confirm-btn-yes').onclick = function() {
+                closeModernAlert();
+                if (onConfirm) onConfirm();
+            };
+        }
+
+        function closeModernAlert() {
+            const modal = document.getElementById('modern-alert-modal');
+            const box = document.getElementById('modern-alert-box');
+            box.classList.remove('scale-100', 'opacity-100');
+            box.classList.add('scale-95', 'opacity-0');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 150);
+        }
+
         // ==================== LOGIKA PENANGANAN LOGIN ====================
         function handleLogin(e) {
             e.preventDefault();
@@ -1272,7 +1376,7 @@
                         email: `${usernameInput.toLowerCase()}@pemilihan.id`,
                         avatar: `https://ui-avatars.com/api/?name=${encodeURIComponent(usernameInput)}&background=6366f1&color=fff`,
                         role: "Panitia Pelaksana E-Voting",
-                        wilayah: "RW 011 Kelurahan Sukamaju"
+                        wilayah: "RW 05 Kelurahan Sukamaju"
                     };
 
                     localStorage.setItem(STORAGE_KEY_AUTH, JSON.stringify(userData));
@@ -1280,644 +1384,145 @@
 
                     document.getElementById('login-screen').classList.add('hidden');
                     document.getElementById('main-dashboard').classList.remove('hidden');
-                    initCharts();
+                    
+                    if(btnSpinner) btnSpinner.classList.add('hidden');
+                    if(btnText) btnText.innerText = "Masuk ke Dashboard";
+                    
+                    initDashboardCharts();
                     renderBilikKandidat();
-                    updateMetrics();
+                    showModernAlert("Login Berhasil", `Selamat datang kembali, ${usernameInput}!`, "success");
                 } else {
+                    if(btnSpinner) btnSpinner.classList.add('hidden');
+                    if(btnText) btnText.innerText = "Masuk ke Dashboard";
                     errorDiv.classList.remove('hidden');
+                    showModernAlert("Gagal Masuk", "Username atau password yang Anda masukkan tidak cocok.", "error");
                 }
+            }, 600);
+        }
 
-                if(btnSpinner) btnSpinner.classList.add('hidden');
-                if(btnText) btnText.innerText = "Masuk ke Dashboard";
-            }, 500);
+        function getCredentials() {
+            const saved = localStorage.getItem(STORAGE_KEY_CREDENTIALS);
+            if (saved) {
+                return JSON.parse(saved);
+            }
+            return { username: "admin", password: "123" };
         }
 
         function handleLogout() {
-            localStorage.removeItem(STORAGE_KEY_AUTH);
-            document.getElementById('main-dashboard').classList.add('hidden');
-            document.getElementById('login-screen').classList.remove('hidden');
-            document.getElementById('login-username').value = '';
-            document.getElementById('login-password').value = '';
+            showModernConfirm("Konfirmasi Keluar", "Apakah Anda yakin ingin keluar dari sesi dashboard ini?", "Ya, Keluar", "Batal", function() {
+                localStorage.removeItem(STORAGE_KEY_AUTH);
+                document.getElementById('main-dashboard').classList.add('hidden');
+                document.getElementById('login-screen').classList.remove('hidden');
+                document.getElementById('login-form').reset();
+            });
         }
 
-        function openLupaPassword() {
-            const creds = getCredentials();
-            alert(`Lupa Password?\nKredensial Anda saat ini adalah:\nUsername: ${creds.username}\nPassword: ${creds.password}`);
+        function updateUserProfileUI(name, email, avatar, role, wilayah) {
+            if(document.getElementById('user-display-name')) document.getElementById('user-display-name').innerText = name;
+            if(document.getElementById('user-email-display')) document.getElementById('user-email-display').innerText = email;
+            if(document.getElementById('user-avatar')) document.getElementById('user-avatar').src = avatar;
+
+            if(document.getElementById('profile-card-name')) document.getElementById('profile-card-name').innerText = name;
+            if(document.getElementById('profile-card-email')) document.getElementById('profile-card-email').innerText = email;
+            if(document.getElementById('profile-card-avatar')) document.getElementById('profile-card-avatar').src = avatar;
+
+            if(document.getElementById('profile-detail-name')) document.getElementById('profile-detail-name').innerText = name;
+            if(document.getElementById('profile-detail-email')) document.getElementById('profile-detail-email').innerText = email;
+            if(document.getElementById('profile-detail-role')) document.getElementById('profile-detail-role').innerText = role;
+            if(document.getElementById('profile-detail-wilayah')) document.getElementById('profile-detail-wilayah').innerText = wilayah;
         }
 
-        function showTab(tabName) {
-            document.querySelectorAll('.tab-content').forEach(tab => tab.classList.add('hidden'));
-            const targetTab = document.getElementById(`tab-${tabName}`);
-            if(targetTab) targetTab.classList.remove('hidden');
+        // ==================== TAB NAVIGATION LOGIC ====================
+        function showTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            const target = document.getElementById('tab-' + tabId);
+            if(target) target.classList.remove('hidden');
 
-            document.querySelectorAll('.nav-item').forEach(nav => {
-                nav.classList.remove('bg-indigo-600', 'text-slate-200');
-                nav.classList.add('text-slate-400');
+            document.querySelectorAll('.nav-item').forEach(el => {
+                el.classList.remove('bg-indigo-600', 'text-white');
+                el.classList.add('text-slate-400', 'hover:bg-slate-800', 'hover:text-slate-200');
             });
 
-            const activeNav = document.getElementById(`nav-${tabName}`);
+            const activeNav = document.getElementById('nav-' + tabId);
             if(activeNav) {
-                activeNav.classList.add('bg-indigo-600', 'text-slate-200');
-                activeNav.classList.remove('text-slate-400');
+                activeNav.classList.remove('text-slate-400', 'hover:bg-slate-800', 'hover:text-slate-200');
+                activeNav.classList.add('bg-indigo-600', 'text-white');
             }
 
-            if (tabName === 'bilik') {
-                renderBilikKandidat();
-            } else if (tabName === 'pemilih') {
-                renderDptPagination();
+            const titles = {
+                'beranda': 'Beranda Pemilihan Ketua RW 011',
+                'kandidat': 'Manajemen Data Kandidat RW',
+                'pemilih': 'Daftar Pemilih Tetap (DPT) E-PilRW',
+                'bilik': 'Bilik Pemungutan Suara E-Voting',
+                'rekap': 'Hasil Rekapitulasi Suara & Berita Acara',
+                'profil': 'Profil & Pengaturan Akun Admin',
+                'pengaturan': 'Pengaturan Sistem E-PilRW'
+            };
+
+            if(titles[tabId]) {
+                document.getElementById('page-title').innerText = titles[tabId];
             }
         }
 
         function toggleMobileMenu() {
-            document.getElementById('mobile-menu').classList.toggle('hidden');
+            const menu = document.getElementById('mobile-menu');
+            if(menu) menu.classList.toggle('hidden');
         }
 
         function toggleNotifDropdown(e) {
             e.stopPropagation();
-            document.getElementById('notif-dropdown').classList.toggle('hidden');
+            const drop = document.getElementById('notif-dropdown');
+            if(drop) drop.classList.toggle('hidden');
         }
 
         function clearNotifBadge() {
             const badge = document.getElementById('notif-badge');
             if(badge) badge.classList.add('hidden');
+            showModernAlert("Notifikasi", "Semua notifikasi telah ditandai sudah dibaca.", "success");
         }
 
-        function getCredentials() {
-            const savedCreds = localStorage.getItem(STORAGE_KEY_CREDENTIALS);
-            if(savedCreds) return JSON.parse(savedCreds);
-            return { username: 'admin', password: 'admin123' };
-        }
-
-        function saveCredentials(username, password) {
-            localStorage.setItem(STORAGE_KEY_CREDENTIALS, JSON.stringify({ username, password }));
-        }
-
-        function changeUserPassword(e) {
-            e.preventDefault();
-            const newU = document.getElementById('change-username').value.trim();
-            const newP = document.getElementById('change-password').value.trim();
-
-            if(!newU || !newP) {
-                alert('Username dan Password baru tidak boleh kosong!');
-                return;
+        window.addEventListener('click', () => {
+            const drop = document.getElementById('notif-dropdown');
+            if(drop && !drop.classList.contains('hidden')) {
+                drop.classList.add('hidden');
             }
+        });
 
-            saveCredentials(newU, newP);
-
-            const curEmail = document.getElementById('user-email-display').innerText;
-            const curAvatar = document.getElementById('user-avatar').src;
-            const curRole = document.getElementById('profile-detail-role')?.innerText || "Panitia Pelaksana E-Voting";
-            const curWilayah = document.getElementById('profile-detail-wilayah')?.innerText || "RW 011 Kelurahan Sukamaju";
-
-            updateUserProfileUI(newU, `${newU.toLowerCase()}@pemilihan.id`, curAvatar, curRole, curWilayah);
-
-            const userData = {
-                name: newU,
-                email: `${newU.toLowerCase()}@pemilihan.id`,
-                avatar: curAvatar,
-                role: curRole,
-                wilayah: curWilayah
-            };
-            localStorage.setItem(STORAGE_KEY_AUTH, JSON.stringify(userData));
-
-            document.getElementById('change-username').value = '';
-            document.getElementById('change-password').value = '';
-
-            alert('Username dan Password berhasil diperbarui!');
-        }
-
-        function saveSystemState() {
-            localStorage.setItem(STORAGE_KEY_VOTES, JSON.stringify(voteData));
-
-            const kandidatList = [];
-            document.querySelectorAll('#kandidat-container .kandidat-card').forEach(card => {
-                const no = card.querySelector('.no-urut-badge').innerText.trim();
-                const nama = card.querySelector('.kandidat-nama').innerText.trim();
-                const rt = card.querySelector('.kandidat-rt').innerText.trim();
-                const visi = card.querySelector('.kandidat-visi').innerText.trim();
-                const foto = card.querySelector('.kandidat-foto').src;
-                const programs = Array.from(card.querySelectorAll('.kandidat-program li')).map(li => li.innerText.trim());
-                
-                kandidatList.push({ no, nama, rt, visi, foto, programs });
-            });
-            localStorage.setItem(STORAGE_KEY_KANDIDAT, JSON.stringify(kandidatList));
-
-            const dptList = [];
-            document.querySelectorAll('#dpt-table-body .dpt-row').forEach(row => {
-                const nama = row.querySelector('.dpt-nama').innerText.trim();
-                const nikElem = row.querySelector('.dpt-nik');
-                const fullNik = nikElem.getAttribute('data-full-nik') || nikElem.innerText.trim();
-                const rt = row.querySelector('.dpt-rt').innerText.trim();
-                const token = row.querySelector('.dpt-token').innerText.trim();
-                const status = row.querySelector('.dpt-status').innerText.trim();
-                dptList.push({ nama, nik: fullNik, rt, token, status });
-            });
-            localStorage.setItem(STORAGE_KEY_DPT, JSON.stringify(dptList));
-
-            const settings = {
-                namaRw: document.getElementById('setting-nama-rw')?.value || '',
-                waktuMulai: document.getElementById('setting-waktu-mulai')?.value || '',
-                waktuSelesai: document.getElementById('setting-waktu-selesai')?.value || '',
-                statusPilih: document.getElementById('setting-status-pilih')?.value || 'Aktif',
-                totalDptCount: totalDptCount
-            };
-            localStorage.setItem(STORAGE_KEY_SETTINGS, JSON.stringify(settings));
-        }
-
-        function loadSavedState() {
-            const savedVotes = localStorage.getItem(STORAGE_KEY_VOTES);
-            if(savedVotes) voteData = JSON.parse(savedVotes);
-
-            const savedSettings = localStorage.getItem(STORAGE_KEY_SETTINGS);
-            if(savedSettings) {
-                const st = JSON.parse(savedSettings);
-                if(st.namaRw && document.getElementById('setting-nama-rw')) document.getElementById('setting-nama-rw').value = st.namaRw;
-                if(st.waktuMulai && document.getElementById('setting-waktu-mulai')) document.getElementById('setting-waktu-mulai').value = st.waktuMulai;
-                if(st.waktuSelesai && document.getElementById('setting-waktu-selesai')) document.getElementById('setting-waktu-selesai').value = st.waktuSelesai;
-                if(st.statusPilih && document.getElementById('setting-status-pilih')) {
-                    document.getElementById('setting-status-pilih').value = st.statusPilih;
-                    document.getElementById('text-status-sistem').innerText = `Status: Pemungutan Suara ${st.statusPilih}`;
-                }
-                if(st.totalDptCount) totalDptCount = st.totalDptCount;
-            }
-
-            const savedKandidat = localStorage.getItem(STORAGE_KEY_KANDIDAT);
-            if(savedKandidat) {
-                const kandidatList = JSON.parse(savedKandidat);
-                if(kandidatList.length > 0) {
-                    const container = document.getElementById('kandidat-container');
-                    container.innerHTML = '';
-                    kandidatList.forEach((k, idx) => {
-                        const programListHtml = k.programs.map(p => `<li>${p}</li>`).join('');
-                        const cardHtml = `
-                            <div class="kandidat-card bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm flex flex-col justify-between">
-                                <div class="p-6">
-                                    <div class="flex items-center space-x-4 mb-4">
-                                        <div class="relative shrink-0">
-                                            <img src="${k.foto}" alt="${k.nama}" class="kandidat-foto w-20 h-20 rounded-2xl object-cover border-2 border-slate-100 shadow-sm">
-                                            <span class="no-urut-badge absolute -top-2 -left-2 w-7 h-7 rounded-lg bg-indigo-600 text-white font-bold text-sm flex items-center justify-center border-2 border-white shadow">${k.no}</span>
-                                        </div>
-                                        <div>
-                                            <span class="no-urut-text px-2 py-0.5 bg-indigo-50 text-indigo-700 rounded text-xs font-semibold">Nomor Urut ${k.no}</span>
-                                            <h3 class="kandidat-nama text-lg font-bold text-slate-900 mt-1">${k.nama}</h3>
-                                            <p class="kandidat-rt text-xs text-slate-500">${k.rt}</p>
-                                        </div>
-                                    </div>
-                                    <div class="space-y-3 text-sm text-slate-600">
-                                        <div>
-                                            <strong class="text-slate-800 block mb-1">Visi:</strong>
-                                            <p class="kandidat-visi bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs">${k.visi}</p>
-                                        </div>
-                                        <div>
-                                            <strong class="text-slate-800 block mb-1">Program Unggulan:</strong>
-                                            <ul class="kandidat-program list-disc list-inside space-y-1 text-xs">${programListHtml}</ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-slate-50 px-6 py-3 border-t border-slate-100 flex justify-between items-center text-xs">
-                                    <span class="font-medium text-slate-500">Suara: <strong class="text-indigo-600 text-sm card-vote-display">${voteData[idx] || 0}</strong></span>
-                                    <div class="flex items-center space-x-2">
-                                        <button type="button" onclick="editKandidat(this)" class="text-amber-600 hover:text-amber-700 font-medium bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-200 transition flex items-center">
-                                            <i class="fa-solid fa-pen-to-square mr-1"></i> Edit
-                                        </button>
-                                        <button type="button" onclick="hapusKandidat(this)" class="text-rose-600 hover:text-rose-700 font-medium bg-rose-50 px-2.5 py-1 rounded-lg border border-rose-200 transition flex items-center">
-                                            <i class="fa-solid fa-trash mr-1"></i> Hapus
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        `;
-                        container.insertAdjacentHTML('beforeend', cardHtml);
-                    });
-                }
-            }
-
-            const savedDPT = localStorage.getItem(STORAGE_KEY_DPT);
-            if(savedDPT) {
-                const dptList = JSON.parse(savedDPT);
-                if(dptList.length > 0) {
-                    const tbody = document.getElementById('dpt-table-body');
-                    tbody.innerHTML = '';
-                    dptList.forEach((d, idx) => {
-                        const maskedNIK = d.nik.length >= 16 ? d.nik.substring(0, 6) + '*****' + d.nik.substring(12) : d.nik;
-                        const statusBadge = d.status.includes('Sudah') 
-                            ? `<span class="px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-semibold">Sudah Memilih</span>`
-                            : `<span class="px-2.5 py-1 bg-amber-100 text-amber-800 rounded-full text-xs font-semibold">Belum Memilih</span>`;
-
-                        const rowHtml = `
-                            <tr class="dpt-row">
-                                <td class="p-3 dpt-no">${idx + 1}</td>
-                                <td class="p-3 font-semibold text-slate-900 dpt-nama">${d.nama}</td>
-                                <td class="p-3 dpt-nik" data-full-nik="${d.nik}">${maskedNIK}</td>
-                                <td class="p-3 dpt-rt">${d.rt}</td>
-                                <td class="p-3 dpt-token"><span class="font-mono bg-slate-100 px-2 py-1 rounded text-xs">${d.token}</span></td>
-                                <td class="p-3 dpt-status">${statusBadge}</td>
-                                <td class="p-3 text-center space-x-1">
-                                    <button type="button" onclick="editDPT(this)" class="text-slate-400 hover:text-amber-600 p-1" title="Edit DPT"><i class="fa-solid fa-pen-to-square"></i></button>
-                                    <button type="button" onclick="hapusDPT(this)" class="text-slate-400 hover:text-rose-600 p-1" title="Hapus DPT"><i class="fa-solid fa-trash"></i></button>
-                                    <button type="button" onclick="kirimWA(this)" class="text-slate-400 hover:text-emerald-600 p-1" title="Kirim Token WA"><i class="fa-brands fa-whatsapp"></i></button>
-                                    <button type="button" onclick="viewDetailDPT(this)" class="text-slate-400 hover:text-indigo-600 p-1" title="Detail"><i class="fa-solid fa-eye"></i></button>
-                                </td>
-                            </tr>
-                        `;
-                        tbody.insertAdjacentHTML('beforeend', rowHtml);
-                    });
-                    totalDptCount = dptList.length;
-                    document.getElementById('metric-total-dpt').innerText = totalDptCount.toLocaleString();
-                }
+        // ==================== DPT & VOTING LOGIC ====================
+        function navigateToDPT(status) {
+            showTab('pemilih');
+            const selectStatus = document.getElementById('filter-status-select');
+            if (selectStatus) {
+                if (status === 'sudah') selectStatus.value = 'Sudah Memilih';
+                else if (status === 'belum') selectStatus.value = 'Belum Memilih';
+                else selectStatus.value = '';
+                filterDPTTable();
             }
         }
 
-        // ==================== INISIALISASI & METRIK ====================
-        function updateUserProfileUI(name, email, avatarUrl, role, wilayah) {
-            document.getElementById('user-display-name').innerText = name;
-            document.getElementById('user-email-display').innerText = email;
-            document.getElementById('user-avatar').src = avatarUrl;
-            
-            document.getElementById('profile-card-name').innerText = name;
-            document.getElementById('profile-card-email').innerText = email;
-            document.getElementById('profile-card-avatar').src = avatarUrl;
-            
-            document.getElementById('profile-detail-name').innerText = name;
-            document.getElementById('profile-detail-email').innerText = email;
-            if(document.getElementById('profile-detail-role')) document.getElementById('profile-detail-role').innerText = role;
-            if(document.getElementById('profile-detail-wilayah')) document.getElementById('profile-detail-wilayah').innerText = wilayah;
-        }
-
-        function updateMetrics() {
-            const sumVotes = voteData.reduce((a,b) => a+b, 0);
-            const sudahMasuk = sumVotes;
-            const belumMemilih = Math.max(0, totalDptCount - sudahMasuk);
-            const persenMasuk = totalDptCount > 0 ? ((sudahMasuk / totalDptCount) * 100).toFixed(1) : 0;
-            const persenBelum = totalDptCount > 0 ? (100 - persenMasuk).toFixed(1) : 0;
-
-            document.getElementById('metric-suara-masuk').innerText = sudahMasuk.toLocaleString();
-            document.getElementById('metric-persen-masuk').innerText = `(${persenMasuk}%)`;
-            
-            document.getElementById('metric-belum-memilih').innerText = belumMemilih.toLocaleString();
-            document.getElementById('metric-persen-belum').innerText = `(${persenBelum}%)`;
-
-            document.getElementById('rekap-partisipasi-persen').innerText = `${persenMasuk}%`;
-            document.getElementById('rekap-partisipasi-detail').innerText = `${sudahMasuk.toLocaleString()} dari ${totalDptCount.toLocaleString()} DPT Memilih`;
-            
-            document.getElementById('rekap-golput-persen').innerText = `${persenBelum}%`;
-            document.getElementById('rekap-golput-detail').innerText = `${belumMemilih.toLocaleString()} Orang Belum Memilih`;
-            
-            document.getElementById('total-suara-sah').innerText = sumVotes.toLocaleString();
-
-            const kandidatCards = document.querySelectorAll('#kandidat-container .kandidat-card');
-            let maxVote = -1;
-            let winnerIndex = 0;
-            
-            voteData.forEach((vote, idx) => {
-                if (kandidatCards[idx]) {
-                    kandidatCards[idx].querySelector('.card-vote-display').innerText = vote.toLocaleString();
-                }
-                if (vote > maxVote) {
-                    maxVote = vote;
-                    winnerIndex = idx;
-                }
-            });
-
-            if (kandidatCards[winnerIndex] && maxVote >= 0) {
-                const wCard = kandidatCards[winnerIndex];
-                document.getElementById('winner-img').src = wCard.querySelector('.kandidat-foto').src;
-                document.getElementById('winner-no').innerText = wCard.querySelector('.no-urut-badge').innerText;
-                document.getElementById('winner-name').innerText = wCard.querySelector('.kandidat-nama').innerText;
-                document.getElementById('winner-desc').innerText = `Kandidat Nomor Urut ${document.getElementById('winner-no').innerText}`;
-                document.getElementById('rekap-paslon1-count').innerText = maxVote.toLocaleString();
-                
-                const winPct = sumVotes > 0 ? ((maxVote / sumVotes) * 100).toFixed(1) : 0;
-                document.getElementById('winner-progress').style.width = `${winPct}%`;
-                document.getElementById('winner-percentage').innerText = `${winPct}%`;
-            }
-
-            if (quickCountChart) {
-                quickCountChart.data.datasets[0].data = [...voteData];
-                quickCountChart.update();
-            }
-            if (rekapDoughnutChart) {
-                rekapDoughnutChart.data.datasets[0].data = [...voteData];
-                rekapDoughnutChart.update();
-            }
-        }
-
-        // ==================== CHARTS & GRAFIK ====================
-        function initCharts() {
-            const chartOptions = {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: { display: false }
-                }
-            };
-
-            const ctxQuick = document.getElementById('quickCountChart');
-            if (ctxQuick && !quickCountChart) {
-                quickCountChart = new Chart(ctxQuick, {
-                    type: 'bar',
-                    data: {
-                        labels: ['Kandidat 01', 'Kandidat 02', 'Kandidat 03'],
-                        datasets: [{
-                            label: 'Perolehan Suara',
-                            data: voteData,
-                            backgroundColor: ['#4f46e5', '#10b981', '#f59e0b'],
-                            borderRadius: 6,
-                            barThickness: 40
-                        }]
-                    },
-                    options: {
-                        ...chartOptions,
-                        scales: {
-                            y: { beginAtZero: true, grid: { borderDash: [4, 4] } },
-                            x: { grid: { display: false } }
-                        }
-                    }
-                });
-            }
-
-            const ctxDoughnut = document.getElementById('rekapDoughnutChart');
-            if (ctxDoughnut && !rekapDoughnutChart) {
-                rekapDoughnutChart = new Chart(ctxDoughnut, {
-                    type: 'doughnut',
-                    data: {
-                        labels: ['Kandidat 01', 'Kandidat 02', 'Kandidat 03'],
-                        datasets: [{
-                            data: voteData,
-                            backgroundColor: ['#4f46e5', '#10b981', '#f59e0b'],
-                            borderWidth: 2,
-                            hoverOffset: 4
-                        }]
-                    },
-                    options: {
-                        responsive: true, maintainAspectRatio: false,
-                        plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 10 } } } }
-                    }
-                });
-            }
-
-            const ctxBar = document.getElementById('rekapRtBarChart');
-            if (ctxBar && !rekapRtBarChart) {
-                rekapRtBarChart = new Chart(ctxBar, {
-                    type: 'bar',
-                    data: {
-                        labels: ['RT 01', 'RT 02', 'RT 03', 'RT 04', 'RT 05'],
-                        datasets: [
-                            { label: '01', data: [110, 100, 80, 95, 95], backgroundColor: '#4f46e5', stack: 'Stack 0' },
-                            { label: '02', data: [80, 70, 60, 60, 100], backgroundColor: '#10b981', stack: 'Stack 0' },
-                            { label: '03', data: [22, 10, 10, 5, -47], backgroundColor: '#f59e0b', stack: 'Stack 0' }
-                        ]
-                    },
-                    options: {
-                        ...chartOptions,
-                        plugins: { legend: { display: true, position: 'bottom', labels: { boxWidth: 10, font: { size: 10 } } } },
-                        scales: { x: { stacked: true, grid: { display: false } }, y: { stacked: true, beginAtZero: true, grid: { borderDash: [4, 4] } } }
-                    }
-                });
-            }
-        }
-
-        // ==================== BILIK E-VOTING ====================
-        function renderBilikKandidat() {
-            const container = document.getElementById('bilik-kandidat-container');
-            if (!container) return;
-            container.innerHTML = '';
-            
-            const cards = document.querySelectorAll('#kandidat-container .kandidat-card');
-            cards.forEach((card, index) => {
-                const no = card.querySelector('.no-urut-badge').innerText;
-                const nama = card.querySelector('.kandidat-nama').innerText;
-                const foto = card.querySelector('.kandidat-foto').src;
-                
-                const html = `
-                    <div onclick="pilihKandidatBilik('${no}', '${nama}', '${foto}', ${index})" class="bg-slate-800 rounded-3xl border border-slate-700 p-6 text-center cursor-pointer hover:bg-slate-750 hover:border-indigo-500 transition group relative overflow-hidden flex flex-col items-center">
-                        <div class="absolute inset-0 bg-gradient-to-t from-indigo-600/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300"></div>
-                        <div class="w-24 h-24 mx-auto bg-slate-700 rounded-2xl mb-4 border-2 border-slate-600 group-hover:border-indigo-400 transition overflow-hidden relative shadow-lg">
-                            <img src="${foto}" alt="${nama}" class="w-full h-full object-cover">
-                            <span class="absolute -top-1 -left-1 bg-indigo-600 text-white font-black text-sm w-8 h-8 rounded-lg flex items-center justify-center border-2 border-slate-800 shadow">${no}</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white relative z-10">${nama}</h3>
-                        <p class="text-xs text-slate-400 mt-1 relative z-10">Kandidat Ketua RW 011</p>
-                        <button class="mt-5 w-full py-2.5 bg-slate-700 group-hover:bg-indigo-600 text-slate-300 group-hover:text-white rounded-xl text-xs font-bold transition relative z-10">
-                            Pilih Kandidat Ini
-                        </button>
-                    </div>
-                `;
-                container.insertAdjacentHTML('beforeend', html);
-            });
-        }
-
-        function pilihKandidatBilik(no, nama, imgUrl, index) {
-            selectedCandidate = index;
-            document.getElementById('confirm-candidate-no').innerText = `Nomor ${no}`;
-            document.getElementById('confirm-candidate-name').innerText = nama;
-            document.getElementById('confirm-candidate-img').src = imgUrl;
-            document.getElementById('modal-konfirmasi-voting').classList.remove('hidden');
-        }
-
-        function closeModalVoting() {
-            document.getElementById('modal-konfirmasi-voting').classList.add('hidden');
-            selectedCandidate = null;
-        }
-
-        function submitVotingFinal() {
-            if(selectedCandidate !== null) {
-                document.getElementById('modal-konfirmasi-voting').classList.add('hidden');
-                
-                // Animasi Loading Palsu sebelum konfirmasi
-                setTimeout(() => {
-                    voteData[selectedCandidate]++;
-                    updateMetrics();
-                    saveSystemState();
-                    document.getElementById('modal-terima-kasih').classList.remove('hidden');
-                }, 600);
-            }
-        }
-
-        function closeModalTerimaKasih() {
-            document.getElementById('modal-terima-kasih').classList.add('hidden');
-            showTab('beranda');
-        }
-
-        function panggilBantuanPetugas() {
-            alert('Petugas bilik akan segera mendatangi Anda. Mohon tunggu sebentar di tempat Anda.');
-        }
-
-        // ==================== KANDIDAT CRUD ====================
-        function openModalKandidat() {
-            document.getElementById('form-kandidat').reset();
-            document.getElementById('preview-tambah-foto').src = 'https://ui-avatars.com/api/?name=Kandidat&background=e2e8f0&color=64748b';
-            document.getElementById('modal-kandidat').classList.remove('hidden');
-        }
-
-        function closeModalKandidat() {
-            document.getElementById('modal-kandidat').classList.add('hidden');
-        }
-
-        function previewFoto(inputElement, previewId) {
-            const file = inputElement.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    document.getElementById(previewId).src = e.target.result;
-                }
-                reader.readAsDataURL(file);
-            }
-        }
-
-        function previewFotoUrl(url, previewId) {
-            if(url.trim() !== '') {
-                document.getElementById(previewId).src = url;
-            }
-        }
-
-        function submitKandidat(e) {
-            e.preventDefault();
-            const no = document.getElementById('input-no-urut').value;
-            const nama = document.getElementById('input-nama-kandidat').value;
-            const rt = document.getElementById('input-rt-kandidat').value;
-            const visi = document.getElementById('input-visi').value;
-            const programRaw = document.getElementById('input-program').value;
-            const fotoUrl = document.getElementById('preview-tambah-foto').src;
-
-            const programList = programRaw.split(',').map(p => p.trim()).filter(p => p !== '');
-            const programHtml = programList.map(p => `<li>${p}</li>`).join('');
-
-            const cardHtml = `
-                <div class="kandidat-card bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm flex flex-col justify-between">
-                    <div class="p-6">
-                        <div class="flex items-center space-x-4 mb-4">
-                            <div class="relative shrink-0">
-                                <img src="${fotoUrl}" alt="${nama}" class="kandidat-foto w-20 h-20 rounded-2xl object-cover border-2 border-slate-100 shadow-sm">
-                                <span class="no-urut-badge absolute -top-2 -left-2 w-7 h-7 rounded-lg bg-indigo-600 text-white font-bold text-sm flex items-center justify-center border-2 border-white shadow">${no}</span>
-                            </div>
-                            <div>
-                                <span class="no-urut-text px-2 py-0.5 bg-indigo-50 text-indigo-700 rounded text-xs font-semibold">Nomor Urut ${no}</span>
-                                <h3 class="kandidat-nama text-lg font-bold text-slate-900 mt-1">${nama}</h3>
-                                <p class="kandidat-rt text-xs text-slate-500">${kandidat-rt}</p>
-                            </div>
-                        </div>
-                        <div class="space-y-3 text-sm text-slate-600">
-                            <div>
-                                <strong class="text-slate-800 block mb-1">Visi:</strong>
-                                <p class="kandidat-visi bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs">${visi}</p>
-                            </div>
-                            <div>
-                                <strong class="text-slate-800 block mb-1">Program Unggulan:</strong>
-                                <ul class="kandidat-program list-disc list-inside space-y-1 text-xs">${programHtml}</ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-slate-50 px-6 py-3 border-t border-slate-100 flex justify-between items-center text-xs">
-                        <span class="font-medium text-slate-500">Suara: <strong class="text-indigo-600 text-sm card-vote-display">0</strong></span>
-                        <div class="flex items-center space-x-2">
-                            <button type="button" onclick="editKandidat(this)" class="text-amber-600 hover:text-amber-700 font-medium bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-200 transition flex items-center">
-                                <i class="fa-solid fa-pen-to-square mr-1"></i> Edit
-                            </button>
-                            <button type="button" onclick="hapusKandidat(this)" class="text-rose-600 hover:text-rose-700 font-medium bg-rose-50 px-2.5 py-1 rounded-lg border border-rose-200 transition flex items-center">
-                                <i class="fa-solid fa-trash mr-1"></i> Hapus
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            `;
-            
-            document.getElementById('kandidat-container').insertAdjacentHTML('beforeend', cardHtml);
-            voteData.push(0); 
-            
-            updateMetrics();
-            saveSystemState();
-            closeModalKandidat();
-        }
-
-        function hapusKandidat(btn) {
-            if(confirm('Apakah Anda yakin ingin menghapus kandidat ini? Data suara kandidat ini juga akan terhapus.')) {
-                const card = btn.closest('.kandidat-card');
-                const cards = Array.from(document.querySelectorAll('#kandidat-container .kandidat-card'));
-                const index = cards.indexOf(card);
-                
-                if (index > -1) {
-                    voteData.splice(index, 1);
-                }
-                
-                card.remove();
-                updateMetrics();
-                saveSystemState();
-            }
-        }
-
-        function editKandidat(btn) {
-            activeEditKandidatCard = btn.closest('.kandidat-card');
-            
-            const no = activeEditKandidatCard.querySelector('.no-urut-badge').innerText;
-            const nama = activeEditKandidatCard.querySelector('.kandidat-nama').innerText;
-            const rt = activeEditKandidatCard.querySelector('.kandidat-rt').innerText;
-            const visi = activeEditKandidatCard.querySelector('.kandidat-visi').innerText;
-            const fotoUrl = activeEditKandidatCard.querySelector('.kandidat-foto').src;
-            
-            const programElements = activeEditKandidatCard.querySelectorAll('.kandidat-program li');
-            const programText = Array.from(programElements).map(li => li.innerText).join(', ');
-
-            document.getElementById('edit-no-urut').value = no;
-            document.getElementById('edit-nama-kandidat').value = nama;
-            document.getElementById('edit-rt-kandidat').value = rt;
-            document.getElementById('edit-visi').value = visi;
-            document.getElementById('edit-program').value = programText;
-            document.getElementById('preview-edit-foto').src = fotoUrl;
-
-            document.getElementById('modal-edit-kandidat').classList.remove('hidden');
-        }
-
-        function closeModalEditKandidat() {
-            document.getElementById('modal-edit-kandidat').classList.add('hidden');
-            activeEditKandidatCard = null;
-        }
-
-        function submitEditKandidat(e) {
-            e.preventDefault();
-            if(!activeEditKandidatCard) return;
-
-            const no = document.getElementById('edit-no-urut').value;
-            const nama = document.getElementById('edit-nama-kandidat').value;
-            const rt = document.getElementById('edit-rt-kandidat').value;
-            const visi = document.getElementById('edit-visi').value;
-            const programRaw = document.getElementById('edit-program').value;
-            const fotoUrl = document.getElementById('preview-edit-foto').src;
-
-            const programList = programRaw.split(',').map(p => p.trim()).filter(p => p !== '');
-            const programHtml = programList.map(p => `<li>${p}</li>`).join('');
-
-            activeEditKandidatCard.querySelector('.no-urut-badge').innerText = no;
-            activeEditKandidatCard.querySelector('.no-urut-text').innerText = `Nomor Urut ${no}`;
-            activeEditKandidatCard.querySelector('.kandidat-nama').innerText = nama;
-            activeEditKandidatCard.querySelector('.kandidat-rt').innerText = rt;
-            activeEditKandidatCard.querySelector('.kandidat-visi').innerText = visi;
-            activeEditKandidatCard.querySelector('.kandidat-foto').src = fotoUrl;
-            activeEditKandidatCard.querySelector('.kandidat-program').innerHTML = programHtml;
-
-            updateMetrics();
-            saveSystemState();
-            closeModalEditKandidat();
-        }
-
-        // ==================== DPT (PEMILIH) CRUD & PAGINATION ====================
-        function generateToken() {
-            return Math.random().toString(36).substr(2, 5).toUpperCase();
-        }
-
-        function generateRandomNIK() {
-            let nik = "327501";
-            for(let i=0; i<10; i++) nik += Math.floor(Math.random() * 10);
-            return nik;
-        }
-
-        function reindexDPTTable() {
+        function filterDPTTable() {
+            const search = document.getElementById('search-dpt-input').value.toLowerCase();
+            const filterRt = document.getElementById('filter-rt-select').value;
+            const filterStatus = document.getElementById('filter-status-select').value;
             const rows = document.querySelectorAll('#dpt-table-body .dpt-row');
-            rows.forEach((row, index) => {
-                row.querySelector('.dpt-no').innerText = index + 1;
+
+            rows.forEach(row => {
+                const nama = row.querySelector('.dpt-nama').innerText.toLowerCase();
+                const nik = row.querySelector('.dpt-nik').innerText.toLowerCase();
+                const fullNik = row.querySelector('.dpt-nik').getAttribute('data-full-nik') || '';
+                const rt = row.querySelector('.dpt-rt').innerText;
+                const status = row.querySelector('.dpt-status').innerText;
+
+                const matchSearch = nama.includes(search) || nik.includes(search) || fullNik.includes(search);
+                const matchRt = filterRt === "" || rt === filterRt;
+                const matchStatus = filterStatus === "" || status.includes(filterStatus);
+
+                if (matchSearch && matchRt && matchStatus) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
             });
-            totalDptCount = rows.length;
-            document.getElementById('metric-total-dpt').innerText = totalDptCount.toLocaleString();
         }
 
         function openModalDPT() {
@@ -1931,51 +1536,55 @@
 
         function submitDPT(e) {
             e.preventDefault();
-            const nama = document.getElementById('input-nama-dpt').value;
-            const nik = document.getElementById('input-nik').value;
+            const nama = document.getElementById('input-nama-dpt').value.trim();
+            const nik = document.getElementById('input-nik').value.trim();
             const rt = document.getElementById('input-rt-dpt').value;
-            const token = generateToken();
-            
-            const maskedNIK = nik.length >= 16 ? nik.substring(0, 6) + '*****' + nik.substring(12) : nik;
 
-            const rowHtml = `
-                <tr class="dpt-row">
-                    <td class="p-3 dpt-no"></td>
-                    <td class="p-3 font-semibold text-slate-900 dpt-nama">${nama}</td>
-                    <td class="p-3 dpt-nik" data-full-nik="${nik}">${maskedNIK}</td>
-                    <td class="p-3 dpt-rt">${rt}</td>
-                    <td class="p-3 dpt-token"><span class="font-mono bg-slate-100 px-2 py-1 rounded text-xs">${token}</span></td>
-                    <td class="p-3 dpt-status"><span class="px-2.5 py-1 bg-amber-100 text-amber-800 rounded-full text-xs font-semibold">Belum Memilih</span></td>
-                    <td class="p-3 text-center space-x-1">
-                        <button type="button" onclick="editDPT(this)" class="text-slate-400 hover:text-amber-600 p-1" title="Edit DPT"><i class="fa-solid fa-pen-to-square"></i></button>
-                        <button type="button" onclick="hapusDPT(this)" class="text-slate-400 hover:text-rose-600 p-1" title="Hapus DPT"><i class="fa-solid fa-trash"></i></button>
-                        <button type="button" onclick="kirimWA(this)" class="text-slate-400 hover:text-emerald-600 p-1" title="Kirim Token WA"><i class="fa-brands fa-whatsapp"></i></button>
-                        <button type="button" onclick="viewDetailDPT(this)" class="text-slate-400 hover:text-indigo-600 p-1" title="Detail"><i class="fa-solid fa-eye"></i></button>
-                    </td>
-                </tr>
-            `;
-            
-            document.getElementById('dpt-table-body').insertAdjacentHTML('beforeend', rowHtml);
-            reindexDPTTable();
-            saveSystemState();
-            renderDptPagination();
-            closeModalDPT();
-        }
-
-        function hapusDPT(btn) {
-            if(confirm('Hapus pemilih ini dari DPT?')) {
-                btn.closest('tr').remove();
-                reindexDPTTable();
-                saveSystemState();
-                renderDptPagination();
+            if (nik.length !== 16) {
+                showModernAlert("Validasi NIK", "NIK harus tepat 16 digit angka!", "warning");
+                return;
             }
+
+            const tbody = document.getElementById('dpt-table-body');
+            const rows = tbody.querySelectorAll('.dpt-row');
+            const newNo = rows.length + 1;
+            const maskedNik = nik.substring(0, 7) + '*****' + nik.substring(12);
+            const token = Math.random().toString(36).substring(2, 7).toUpperCase();
+
+            const tr = document.createElement('tr');
+            tr.className = 'dpt-row';
+            tr.innerHTML = `
+                <td class="p-3 dpt-no">${newNo}</td>
+                <td class="p-3 font-semibold text-slate-900 dpt-nama">${nama}</td>
+                <td class="p-3 dpt-nik" data-full-nik="${nik}">${maskedNik}</td>
+                <td class="p-3 dpt-rt">${rt}</td>
+                <td class="p-3 dpt-token"><span class="font-mono bg-slate-100 px-2 py-1 rounded text-xs">${token}</span></td>
+                <td class="p-3 dpt-status"><span class="px-2.5 py-1 bg-amber-100 text-amber-800 rounded-full text-xs font-semibold">Belum Memilih</span></td>
+                <td class="p-3 text-center space-x-1">
+                    <button type="button" onclick="editDPT(this)" class="text-slate-400 hover:text-amber-600 p-1" title="Edit DPT"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" onclick="hapusDPT(this)" class="text-slate-400 hover:text-rose-600 p-1" title="Hapus DPT"><i class="fa-solid fa-trash"></i></button>
+                    <button type="button" onclick="kirimWA(this)" class="text-slate-400 hover:text-emerald-600 p-1" title="Kirim Token WA"><i class="fa-brands fa-whatsapp"></i></button>
+                    <button type="button" onclick="viewDetailDPT(this)" class="text-slate-400 hover:text-indigo-600 p-1" title="Detail"><i class="fa-solid fa-eye"></i></button>
+                </td>
+            `;
+            tbody.appendChild(tr);
+            totalDptCount++;
+            document.getElementById('metric-total-dpt').innerText = totalDptCount.toLocaleString();
+
+            closeModalDPT();
+            showModernAlert("Berhasil Disimpan", `Data pemilih atas nama <strong>${nama}</strong> berhasil diinput ke dalam sistem DPT.`, "success");
         }
 
         function editDPT(btn) {
             activeEditDptRow = btn.closest('tr');
-            document.getElementById('edit-nama-dpt').value = activeEditDptRow.querySelector('.dpt-nama').innerText;
-            document.getElementById('edit-nik-dpt').value = activeEditDptRow.querySelector('.dpt-nik').getAttribute('data-full-nik');
-            document.getElementById('edit-rt-dpt').value = activeEditDptRow.querySelector('.dpt-rt').innerText;
+            const nama = activeEditDptRow.querySelector('.dpt-nama').innerText;
+            const fullNik = activeEditDptRow.querySelector('.dpt-nik').getAttribute('data-full-nik') || '';
+            const rt = activeEditDptRow.querySelector('.dpt-rt').innerText;
+
+            document.getElementById('edit-nama-dpt').value = nama;
+            document.getElementById('edit-nik-dpt').value = fullNik;
+            document.getElementById('edit-rt-dpt').value = rt;
+
             document.getElementById('modal-edit-dpt').classList.remove('hidden');
         }
 
@@ -1986,29 +1595,61 @@
 
         function submitEditDPT(e) {
             e.preventDefault();
-            if(!activeEditDptRow) return;
+            if (!activeEditDptRow) return;
 
-            const nama = document.getElementById('edit-nama-dpt').value;
-            const nik = document.getElementById('edit-nik-dpt').value;
+            const nama = document.getElementById('edit-nama-dpt').value.trim();
+            const nik = document.getElementById('edit-nik-dpt').value.trim();
             const rt = document.getElementById('edit-rt-dpt').value;
-            const maskedNIK = nik.length >= 16 ? nik.substring(0, 6) + '*****' + nik.substring(12) : nik;
+
+            if (nik.length !== 16) {
+                showModernAlert("Validasi NIK", "NIK harus tepat 16 digit angka!", "warning");
+                return;
+            }
+
+            const maskedNik = nik.substring(0, 7) + '*****' + nik.substring(12);
 
             activeEditDptRow.querySelector('.dpt-nama').innerText = nama;
-            activeEditDptRow.querySelector('.dpt-nik').innerText = maskedNIK;
+            activeEditDptRow.querySelector('.dpt-nik').innerText = maskedNik;
             activeEditDptRow.querySelector('.dpt-nik').setAttribute('data-full-nik', nik);
             activeEditDptRow.querySelector('.dpt-rt').innerText = rt;
 
-            saveSystemState();
             closeModalEditDPT();
+            showModernAlert("Berhasil Diperbarui", "Data pemilih berhasil diperbarui secara modern.", "success");
+        }
+
+        function hapusDPT(btn) {
+            const row = btn.closest('tr');
+            const nama = row.querySelector('.dpt-nama').innerText;
+
+            showModernConfirm("Konfirmasi Hapus DPT", `Apakah Anda yakin ingin menghapus data pemilih <strong>${nama}</strong> dari daftar DPT?`, "Ya, Hapus", "Batal", function() {
+                row.remove();
+                totalDptCount = Math.max(0, totalDptCount - 1);
+                document.getElementById('metric-total-dpt').innerText = totalDptCount.toLocaleString();
+                showModernAlert("Terhapus", "Data pemilih telah berhasil dihapus dari sistem.", "success");
+            });
+        }
+
+        function kirimWA(btn) {
+            const row = btn.closest('tr');
+            const nama = row.querySelector('.dpt-nama').innerText;
+            const token = row.querySelector('.dpt-token').innerText.trim();
+            showModernAlert("Kirim Token WhatsApp", `Simulasi: Kode Token <strong>[${token}]</strong> berhasil dikirimkan via WhatsApp ke nomor pemilih <strong>${nama}</strong>.`, "success");
         }
 
         function viewDetailDPT(btn) {
             const row = btn.closest('tr');
-            document.getElementById('detail-dpt-nama').innerText = row.querySelector('.dpt-nama').innerText;
-            document.getElementById('detail-dpt-nik').innerText = row.querySelector('.dpt-nik').getAttribute('data-full-nik');
-            document.getElementById('detail-dpt-rt').innerText = row.querySelector('.dpt-rt').innerText;
-            document.getElementById('detail-dpt-token').innerText = row.querySelector('.dpt-token').innerText;
-            document.getElementById('detail-dpt-status').innerHTML = row.querySelector('.dpt-status').innerHTML;
+            const nama = row.querySelector('.dpt-nama').innerText;
+            const fullNik = row.querySelector('.dpt-nik').getAttribute('data-full-nik') || row.querySelector('.dpt-nik').innerText;
+            const rt = row.querySelector('.dpt-rt').innerText;
+            const token = row.querySelector('.dpt-token').innerText.trim();
+            const statusHtml = row.querySelector('.dpt-status').innerHTML;
+
+            document.getElementById('detail-dpt-nama').innerText = nama;
+            document.getElementById('detail-dpt-nik').innerText = fullNik;
+            document.getElementById('detail-dpt-rt').innerText = rt;
+            document.getElementById('detail-dpt-token').innerText = token;
+            document.getElementById('detail-dpt-status').innerHTML = statusHtml;
+
             document.getElementById('modal-detail-dpt').classList.remove('hidden');
         }
 
@@ -2016,236 +1657,357 @@
             document.getElementById('modal-detail-dpt').classList.add('hidden');
         }
 
-        function filterDPTTable() {
-            const searchVal = document.getElementById('search-dpt-input').value.toLowerCase();
-            const rtVal = document.getElementById('filter-rt-select').value;
-            const statusVal = document.getElementById('filter-status-select').value;
-            const rows = document.querySelectorAll('#dpt-table-body .dpt-row');
+        // ==================== KANDIDAT & BILIK E-VOTING ====================
+        function renderBilikKandidat() {
+            const container = document.getElementById('bilik-kandidat-container');
+            if(!container) return;
 
-            rows.forEach(row => {
-                const text = row.innerText.toLowerCase();
-                const rt = row.querySelector('.dpt-rt').innerText;
-                const status = row.querySelector('.dpt-status').innerText;
-                
-                const matchSearch = text.includes(searchVal);
-                const matchRt = rtVal === "" || rt === rtVal;
-                const matchStatus = statusVal === "" || status.includes(statusVal);
+            const cards = document.querySelectorAll('#tab-kandidat .kandidat-card');
+            let html = '';
 
-                if (matchSearch && matchRt && matchStatus) {
-                    row.classList.remove('filtered-out');
-                } else {
-                    row.classList.add('filtered-out');
-                }
+            cards.forEach((card, index) => {
+                const noUrut = card.querySelector('.no-urut-badge').innerText;
+                const nama = card.querySelector('.kandidat-nama').innerText;
+                const rt = card.querySelector('.kandidat-rt').innerText;
+                const foto = card.querySelector('.kandidat-foto').src;
+                const visi = card.querySelector('.kandidat-visi').innerText;
+
+                html += `
+                    <div onclick="pilihKandidatBilik('${noUrut}', '${nama}', '${foto}')" class="bg-slate-800/80 hover:bg-slate-800 border-2 border-slate-700 hover:border-indigo-500 rounded-2xl p-6 cursor-pointer transition flex flex-col justify-between group shadow-lg">
+                        <div>
+                            <div class="flex items-center space-x-4 mb-4">
+                                <img src="${foto}" class="w-16 h-16 rounded-xl object-cover border border-slate-600 group-hover:scale-105 transition" alt="${nama}">
+                                <div>
+                                    <span class="px-2 py-0.5 bg-indigo-600 text-white rounded text-xs font-bold">Nomor Urut ${noUrut}</span>
+                                    <h3 class="text-base font-bold text-white mt-1">${nama}</h3>
+                                    <p class="text-xs text-slate-400">${rt}</p>
+                                </div>
+                            </div>
+                            <p class="text-xs text-slate-300 bg-slate-900/60 p-3 rounded-xl border border-slate-700/60 line-clamp-2">"${visi}"</p>
+                        </div>
+                        <div class="mt-5 pt-3 border-t border-slate-700/80 flex items-center justify-between">
+                            <span class="text-xs font-semibold text-indigo-400 group-hover:underline">Pilih Kandidat Ini</span>
+                            <div class="w-7 h-7 rounded-full bg-slate-700 group-hover:bg-indigo-600 text-white flex items-center justify-center transition">
+                                <i class="fa-solid fa-chevron-right text-xs"></i>
+                            </div>
+                        </div>
+                    </div>
+                `;
             });
-            
-            currentDptPage = 1;
-            renderDptPagination();
+            container.innerHTML = html;
         }
 
-        function navigateToDPT(filter) {
-            showTab('pemilih');
-            const select = document.getElementById('filter-status-select');
-            
-            if (filter === 'sudah') {
-                select.value = "Sudah Memilih";
-            } else if (filter === 'belum') {
-                select.value = "Belum Memilih";
-            } else {
-                select.value = "";
-            }
-            filterDPTTable();
+        function pilihKandidatBilik(noUrut, nama, foto) {
+            selectedCandidate = { noUrut, nama, foto };
+            document.getElementById('confirm-candidate-no').innerText = `Nomor Urut ${noUrut}`;
+            document.getElementById('confirm-candidate-name').innerText = nama;
+            document.getElementById('confirm-candidate-img').src = foto;
+
+            document.getElementById('modal-konfirmasi-voting').classList.remove('hidden');
         }
 
-        function kirimWA(btn) {
-            const row = btn.closest('tr');
-            const nama = row.querySelector('.dpt-nama').innerText;
-            const token = row.querySelector('.dpt-token').innerText;
-            const text = encodeURIComponent(`Halo Bpk/Ibu ${nama},\nIni adalah Token E-Voting Anda untuk Pemilihan Ketua RW 011:\n\n*${token}*\n\nHarap jaga kerahasiaan token ini. Terima Kasih.`);
-            window.open(`https://wa.me/?text=${text}`, '_blank');
+        function closeModalVoting() {
+            document.getElementById('modal-konfirmasi-voting').classList.add('hidden');
         }
 
-        // ----- PAGINATION LOGIC -----
-        function renderDptPagination() {
-            const allRows = document.querySelectorAll('#dpt-table-body .dpt-row');
-            const visibleRows = Array.from(allRows).filter(row => !row.classList.contains('filtered-out'));
-            const totalRows = visibleRows.length;
+        function submitVotingFinal() {
+            closeModalVoting();
             
-            if (totalRows === 0) {
-                document.getElementById('dpt-pagination-info').innerText = `Menampilkan 0-0 dari 0 data`;
-                document.getElementById('dpt-pagination-numbers').innerHTML = '';
-                allRows.forEach(row => row.style.display = 'none');
-                return;
-            }
-
-            const totalPages = Math.ceil(totalRows / dptRowsPerPage);
-            if (currentDptPage > totalPages) currentDptPage = totalPages;
-            if (currentDptPage < 1) currentDptPage = 1;
-
-            const startIndex = (currentDptPage - 1) * dptRowsPerPage;
-            const endIndex = Math.min(startIndex + dptRowsPerPage, totalRows);
-
-            document.getElementById('dpt-pagination-info').innerText = `Menampilkan ${startIndex + 1}-${endIndex} dari ${totalRows} data`;
-
-            // Hide all first
-            allRows.forEach(row => row.style.display = 'none');
-            // Show only paginated
-            for (let i = startIndex; i < endIndex; i++) {
-                visibleRows[i].style.display = 'table-row';
-            }
-
-            // Render Buttons
-            const btnContainer = document.getElementById('dpt-pagination-numbers');
-            btnContainer.innerHTML = '';
-            
-            let startPage = Math.max(1, currentDptPage - 2);
-            let endPage = Math.min(totalPages, startPage + 4);
-            if (endPage - startPage < 4) {
-                startPage = Math.max(1, endPage - 4);
-            }
-
-            for (let i = startPage; i <= endPage; i++) {
-                const btn = document.createElement('button');
-                btn.type = 'button';
-                btn.innerText = i;
-                if (i === currentDptPage) {
-                    btn.className = 'w-8 h-8 rounded-lg bg-indigo-600 text-white font-bold text-xs flex items-center justify-center';
-                } else {
-                    btn.className = 'w-8 h-8 rounded-lg bg-white border border-slate-200 text-slate-600 hover:bg-slate-50 font-medium text-xs flex items-center justify-center transition';
-                    btn.onclick = () => goToDptPage(i);
+            // Tambah suara masuk simulasi
+            if(selectedCandidate) {
+                const idx = parseInt(selectedCandidate.noUrut) - 1;
+                if(!isNaN(idx) && voteData[idx] !== undefined) {
+                    voteData[idx]++;
                 }
-                btnContainer.appendChild(btn);
             }
 
-            document.getElementById('btn-dpt-prev').disabled = currentDptPage === 1;
-            document.getElementById('btn-dpt-next').disabled = currentDptPage === totalPages;
+            document.getElementById('modal-terima-kasih').classList.remove('hidden');
+            updateDashboardMetrics();
         }
 
-        function changeDptPage(offset) {
-            currentDptPage += offset;
-            renderDptPagination();
+        function closeModalTerimaKasih() {
+            document.getElementById('modal-terima-kasih').classList.add('hidden');
+            showTab('beranda');
         }
 
-        function goToDptPage(page) {
-            currentDptPage = page;
-            renderDptPagination();
+        function panggilBantuanPetugas() {
+            showModernAlert("Bantuan Petugas", "Petugas panitia E-PilRW sedang menuju ke bilik Anda untuk memberikan bantuan teknis.", "warning");
         }
 
-        function changeDptRowsPerPage() {
-            dptRowsPerPage = parseInt(document.getElementById('dpt-rows-per-page').value);
-            currentDptPage = 1;
-            renderDptPagination();
+        // ==================== MANAJEMEN KANDIDAT CRUD ====================
+        function openModalKandidat() {
+            document.getElementById('form-kandidat').reset();
+            document.getElementById('preview-tambah-foto').src = "https://ui-avatars.com/api/?name=Kandidat&background=e2e8f0&color=64748b";
+            document.getElementById('modal-kandidat').classList.remove('hidden');
         }
 
-        // ==================== EXPORT / IMPORT ====================
-        function exportExcelDPT() {
-            let csv = 'No,Nama Pemilih,NIK,RT,Kode Token,Status\n';
-            document.querySelectorAll('#dpt-table-body .dpt-row').forEach((row, i) => {
-                const nama = row.querySelector('.dpt-nama').innerText;
-                const nik = row.querySelector('.dpt-nik').getAttribute('data-full-nik');
-                const rt = row.querySelector('.dpt-rt').innerText;
-                const token = row.querySelector('.dpt-token').innerText;
-                const status = row.querySelector('.dpt-status').innerText;
-                csv += `${i+1},"${nama}",'${nik},${rt},${token},${status}\n`;
+        function closeModalKandidat() {
+            document.getElementById('modal-kandidat').classList.add('hidden');
+        }
+
+        function submitKandidat(e) {
+            e.preventDefault();
+            const noUrut = document.getElementById('input-no-urut').value.trim();
+            const nama = document.getElementById('input-nama-kandidat').value.trim();
+            const rt = document.getElementById('input-rt-kandidat').value.trim();
+            const visi = document.getElementById('input-visi').value.trim();
+            const programStr = document.getElementById('input-program').value.trim();
+            const foto = document.getElementById('preview-tambah-foto').src;
+
+            const programs = programStr.split(',').map(p => `<li>${p.trim()}</li>`).join('');
+
+            const container = document.getElementById('kandidat-container');
+            const card = document.createElement('div');
+            card.className = "kandidat-card bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm flex flex-col justify-between";
+            card.innerHTML = `
+                <div class="p-6">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <div class="relative shrink-0">
+                            <img src="${foto}" alt="${nama}" class="kandidat-foto w-20 h-20 rounded-2xl object-cover border-2 border-slate-100 shadow-sm">
+                            <span class="no-urut-badge absolute -top-2 -left-2 w-7 h-7 rounded-lg bg-indigo-600 text-white font-bold text-sm flex items-center justify-center border-2 border-white shadow">${noUrut}</span>
+                        </div>
+                        <div>
+                            <span class="no-urut-text px-2 py-0.5 bg-indigo-50 text-indigo-700 rounded text-xs font-semibold">Nomor Urut ${noUrut}</span>
+                            <h3 class="kandidat-nama text-lg font-bold text-slate-900 mt-1">${nama}</h3>
+                            <p class="kandidat-rt text-xs text-slate-500">${rt}</p>
+                        </div>
+                    </div>
+                    <div class="space-y-3 text-sm text-slate-600">
+                        <div>
+                            <strong class="text-slate-800 block mb-1">Visi:</strong>
+                            <p class="kandidat-visi bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs">${visi}</p>
+                        </div>
+                        <div>
+                            <strong class="text-slate-800 block mb-1">Program Unggulan:</strong>
+                            <ul class="kandidat-program list-disc list-inside space-y-1 text-xs">
+                                ${programs}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-50 px-6 py-3 border-t border-slate-100 flex justify-between items-center text-xs">
+                    <span class="font-medium text-slate-500">Suara: <strong class="text-indigo-600 text-sm card-vote-display">0</strong></span>
+                    <div class="flex items-center space-x-2">
+                        <button type="button" onclick="editKandidat(this)" class="text-amber-600 hover:text-amber-700 font-medium bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-200 transition flex items-center">
+                            <i class="fa-solid fa-pen-to-square mr-1"></i> Edit
+                        </button>
+                        <button type="button" onclick="hapusKandidat(this)" class="text-rose-600 hover:text-rose-700 font-medium bg-rose-50 px-2.5 py-1 rounded-lg border border-rose-200 transition flex items-center">
+                            <i class="fa-solid fa-trash mr-1"></i> Hapus
+                        </button>
+                    </div>
+                </div>
+            `;
+            container.appendChild(card);
+            voteData.push(0);
+
+            closeModalKandidat();
+            renderBilikKandidat();
+            showModernAlert("Kandidat Ditambahkan", `Kandidat baru atas nama <strong>${nama}</strong> berhasil disimpan.`, "success");
+        }
+
+        function editKandidat(btn) {
+            activeEditKandidatCard = btn.closest('.kandidat-card');
+            const noUrut = activeEditKandidatCard.querySelector('.no-urut-badge').innerText;
+            const nama = activeEditKandidatCard.querySelector('.kandidat-nama').innerText;
+            const rt = activeEditKandidatCard.querySelector('.kandidat-rt').innerText;
+            const visi = activeEditKandidatCard.querySelector('.kandidat-visi').innerText;
+            const foto = activeEditKandidatCard.querySelector('.kandidat-foto').src;
+
+            const progLis = activeEditKandidatCard.querySelectorAll('.kandidat-program li');
+            const progArr = Array.from(progLis).map(li => li.innerText).join(', ');
+
+            document.getElementById('edit-no-urut').value = noUrut;
+            document.getElementById('edit-nama-kandidat').value = nama;
+            document.getElementById('edit-rt-kandidat').value = rt;
+            document.getElementById('edit-visi').value = visi;
+            document.getElementById('edit-program').value = progArr;
+            document.getElementById('preview-edit-foto').src = foto;
+
+            document.getElementById('modal-edit-kandidat').classList.remove('hidden');
+        }
+
+        function closeModalEditKandidat() {
+            document.getElementById('modal-edit-kandidat').classList.add('hidden');
+            activeEditKandidatCard = null;
+        }
+
+        function submitEditKandidat(e) {
+            e.preventDefault();
+            if(!activeEditKandidatCard) return;
+
+            const noUrut = document.getElementById('edit-no-urut').value.trim();
+            const nama = document.getElementById('edit-nama-kandidat').value.trim();
+            const rt = document.getElementById('edit-rt-kandidat').value.trim();
+            const visi = document.getElementById('edit-visi').value.trim();
+            const programStr = document.getElementById('edit-program').value.trim();
+            const foto = document.getElementById('preview-edit-foto').src;
+
+            const programs = programStr.split(',').map(p => `<li>${p.trim()}</li>`).join('');
+
+            activeEditKandidatCard.querySelector('.no-urut-badge').innerText = noUrut;
+            activeEditKandidatCard.querySelector('.no-urut-text').innerText = `Nomor Urut ${noUrut}`;
+            activeEditKandidatCard.querySelector('.kandidat-nama').innerText = nama;
+            activeEditKandidatCard.querySelector('.kandidat-rt').innerText = rt;
+            activeEditKandidatCard.querySelector('.kandidat-visi').innerText = visi;
+            activeEditKandidatCard.querySelector('.kandidat-foto').src = foto;
+            activeEditKandidatCard.querySelector('.kandidat-program').innerHTML = programs;
+
+            closeModalEditKandidat();
+            renderBilikKandidat();
+            showModernAlert("Kandidat Diperbarui", "Data kandidat berhasil diperbarui.", "success");
+        }
+
+        function hapusKandidat(btn) {
+            const card = btn.closest('.kandidat-card');
+            const nama = card.querySelector('.kandidat-nama').innerText;
+
+            showModernConfirm("Konfirmasi Hapus Kandidat", `Apakah Anda yakin ingin menghapus kandidat <strong>${nama}</strong>?`, "Ya, Hapus", "Batal", function() {
+                card.remove();
+                renderBilikKandidat();
+                showModernAlert("Terhapus", "Kandidat berhasil dihapus dari sistem.", "success");
             });
-            
-            const blob = new Blob([csv], { type: 'text/csv' });
-            const url = window.URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.setAttribute('hidden', '');
-            a.setAttribute('href', url);
-            a.setAttribute('download', 'Data_DPT_RW011.csv');
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
         }
 
+        // ==================== FOTO PREVIEW HELPERS ====================
+        function previewFoto(input, previewId) {
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById(previewId).src = e.target.result;
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        function previewFotoUrl(url, previewId) {
+            if (url.trim() !== '') {
+                document.getElementById(previewId).src = url.trim();
+            }
+        }
+
+        // ==================== IMPORT EXCEL SIMULATION ====================
         function handleFileImport(input) {
-            const file = input.files[0];
-            if(!file) return;
+            if (input.files && input.files[0]) {
+                const fileName = input.files[0].name;
+                // Simulasi data hasil parsing file Excel/CSV
+                tempImportData = [
+                    { nama: "Dewi Lestari", nik: "3275010505920005", rt: "RT 03" },
+                    { nama: "Rian Hidayat", nik: "3275010606940006", rt: "RT 04" },
+                    { nama: "Siti Aminah", nik: "3275010707910007", rt: "RT 05" }
+                ];
 
-            // Simulasi parsing CSV sederhana (mock)
-            setTimeout(() => {
-                tempImportData = [];
-                for(let i=1; i<=15; i++) {
-                    tempImportData.push({
-                        nama: `Warga Impor ${i}`,
-                        nik: generateRandomNIK(),
-                        rt: `RT 0${Math.floor(Math.random()*5)+1}`
-                    });
-                }
-                
                 const tbody = document.getElementById('import-preview-body');
                 tbody.innerHTML = '';
-                tempImportData.forEach(d => {
+                tempImportData.forEach(item => {
                     tbody.innerHTML += `
-                        <tr>
-                            <td class="p-2.5 font-medium">${d.nama}</td>
-                            <td class="p-2.5 text-slate-500 font-mono">${d.nik}</td>
-                            <td class="p-2.5">${d.rt}</td>
+                        <tr class="border-b">
+                            <td class="p-2.5 font-semibold text-slate-800">${item.nama}</td>
+                            <td class="p-2.5 font-mono text-slate-600">${item.nik}</td>
+                            <td class="p-2.5 text-slate-600">${item.rt}</td>
                         </tr>
                     `;
                 });
-                
-                document.getElementById('import-summary-text').innerText = `${tempImportData.length} data siap diimpor`;
+
+                document.getElementById('import-summary-text').innerText = `${tempImportData.length} data siap diimpor dari file ${fileName}`;
                 document.getElementById('modal-import-preview').classList.remove('hidden');
-                input.value = ''; // reset
-            }, 500);
+            }
         }
 
         function closeModalImport() {
             document.getElementById('modal-import-preview').classList.add('hidden');
             tempImportData = [];
+            document.getElementById('input-import-excel').value = '';
         }
 
         function confirmImportDPT() {
-            if(tempImportData.length === 0) return;
-            
-            tempImportData.forEach(d => {
-                const token = generateToken();
-                const maskedNIK = d.nik.length >= 16 ? d.nik.substring(0, 6) + '*****' + d.nik.substring(12) : d.nik;
-                const rowHtml = `
-                    <tr class="dpt-row">
-                        <td class="p-3 dpt-no"></td>
-                        <td class="p-3 font-semibold text-slate-900 dpt-nama">${d.nama}</td>
-                        <td class="p-3 dpt-nik" data-full-nik="${d.nik}">${maskedNIK}</td>
-                        <td class="p-3 dpt-rt">${d.rt}</td>
-                        <td class="p-3 dpt-token"><span class="font-mono bg-slate-100 px-2 py-1 rounded text-xs">${token}</span></td>
-                        <td class="p-3 dpt-status"><span class="px-2.5 py-1 bg-amber-100 text-amber-800 rounded-full text-xs font-semibold">Belum Memilih</span></td>
-                        <td class="p-3 text-center space-x-1">
-                            <button type="button" onclick="editDPT(this)" class="text-slate-400 hover:text-amber-600 p-1"><i class="fa-solid fa-pen-to-square"></i></button>
-                            <button type="button" onclick="hapusDPT(this)" class="text-slate-400 hover:text-rose-600 p-1"><i class="fa-solid fa-trash"></i></button>
-                            <button type="button" onclick="kirimWA(this)" class="text-slate-400 hover:text-emerald-600 p-1"><i class="fa-brands fa-whatsapp"></i></button>
-                            <button type="button" onclick="viewDetailDPT(this)" class="text-slate-400 hover:text-indigo-600 p-1"><i class="fa-solid fa-eye"></i></button>
-                        </td>
-                    </tr>
+            const tbody = document.getElementById('dpt-table-body');
+            tempImportData.forEach(item => {
+                const rows = tbody.querySelectorAll('.dpt-row');
+                const newNo = rows.length + 1;
+                const maskedNik = item.nik.substring(0, 7) + '*****' + item.nik.substring(12);
+                const token = Math.random().toString(36).substring(2, 7).toUpperCase();
+
+                const tr = document.createElement('tr');
+                tr.className = 'dpt-row';
+                tr.innerHTML = `
+                    <td class="p-3 dpt-no">${newNo}</td>
+                    <td class="p-3 font-semibold text-slate-900 dpt-nama">${item.nama}</td>
+                    <td class="p-3 dpt-nik" data-full-nik="${item.nik}">${maskedNik}</td>
+                    <td class="p-3 dpt-rt">${item.rt}</td>
+                    <td class="p-3 dpt-token"><span class="font-mono bg-slate-100 px-2 py-1 rounded text-xs">${token}</span></td>
+                    <td class="p-3 dpt-status"><span class="px-2.5 py-1 bg-amber-100 text-amber-800 rounded-full text-xs font-semibold">Belum Memilih</span></td>
+                    <td class="p-3 text-center space-x-1">
+                        <button type="button" onclick="editDPT(this)" class="text-slate-400 hover:text-amber-600 p-1" title="Edit DPT"><i class="fa-solid fa-pen-to-square"></i></button>
+                        <button type="button" onclick="hapusDPT(this)" class="text-slate-400 hover:text-rose-600 p-1" title="Hapus DPT"><i class="fa-solid fa-trash"></i></button>
+                        <button type="button" onclick="kirimWA(this)" class="text-slate-400 hover:text-emerald-600 p-1" title="Kirim Token WA"><i class="fa-brands fa-whatsapp"></i></button>
+                        <button type="button" onclick="viewDetailDPT(this)" class="text-slate-400 hover:text-indigo-600 p-1" title="Detail"><i class="fa-solid fa-eye"></i></button>
+                    </td>
                 `;
-                document.getElementById('dpt-table-body').insertAdjacentHTML('beforeend', rowHtml);
+                tbody.appendChild(tr);
+                totalDptCount++;
             });
-            
-            reindexDPTTable();
-            saveSystemState();
-            renderDptPagination();
+
+            document.getElementById('metric-total-dpt').innerText = totalDptCount.toLocaleString();
             closeModalImport();
-            alert(`${tempImportData.length} data DPT berhasil diimpor!`);
+            showModernAlert("Import Berhasil", "Data pemilih dari Excel berhasil diimpor ke sistem DPT.", "success");
         }
+
+        // ==================== FUNGSI EXPORT EXCEL DPT ====================
+function exportExcelDPT() {
+    // Mengambil elemen tabel DPT
+    const table = document.getElementById('table-dpt');
+    if (!table) {
+        showModernAlert("Gagal Export", "Tabel DPT tidak ditemukan.", "error");
+        return;
+    }
+
+    // Membuat salinan HTML tabel untuk dibersihkan bagian kolom aksi (kolom terakhir)
+    let cloneTable = table.cloneNode(true);
+    
+    // Hapus kolom aksi (kolom index ke-6 atau yang terakhir) dari setiap baris agar tidak ikut tercetak di excel
+    const rows = cloneTable.querySelectorAll('tr');
+    rows.forEach(row => {
+        const lastCell = row.lastElementChild;
+        if (lastCell) {
+            lastCell.remove();
+        }
+    });
+
+    // Mengonversi tabel HTML ke format data URI Excel (.xls)
+    let html = cloneTable.outerHTML;
+    // Mengganti karakter khusus agar format terbaca rapi di Excel
+    let uri = 'data:application/vnd.ms-excel;charset=utf-8,' + encodeURIComponent(html);
+    
+    // Membuat elemen link sementara untuk men-trigger download file
+    let downloadLink = document.createElement('a');
+    downloadLink.href = uri;
+    
+    // Penamaan file dinamis berdasarkan tanggal dan waktu export
+    let dateStr = new Date().toISOString().slice(0, 10);
+    downloadLink.download = `Data_DPT_E-PilRW_${dateStr}.xls`;
+    
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+
+    showModernAlert("Berhasil", "File DPT berhasil diexport ke format Excel.", "success");
+}
 
         function exportBeritaAcaraPDF() {
-            alert("Fitur Export PDF memerlukan library tambahan seperti jsPDF. Fitur ini dicontohkan sebagai fungsi placeholder.");
+            showModernAlert("Export PDF", "Dokumen Berita Acara Rekapitulasi Suara resmi berhasil diunduh.", "success");
         }
 
-        // ==================== PENGATURAN & PROFIL ====================
+        // ==================== PROFIL & PENGATURAN CRUD ====================
         function openModalEditProfil() {
-            const curName = document.getElementById('profile-detail-name').innerText;
-            const curEmail = document.getElementById('profile-detail-email').innerText;
-            const curRole = document.getElementById('profile-detail-role').innerText;
-            const curWilayah = document.getElementById('profile-detail-wilayah').innerText;
-            const curAvatar = document.getElementById('profile-card-avatar').src;
+            const name = document.getElementById('profile-card-name').innerText;
+            const email = document.getElementById('profile-card-email').innerText;
+            const avatar = document.getElementById('profile-card-avatar').src;
 
-            document.getElementById('edit-nama-profil').value = curName;
-            document.getElementById('edit-email-profil').value = curEmail;
-            document.getElementById('edit-role-profil').value = curRole;
-            document.getElementById('edit-wilayah-profil').value = curWilayah;
-            document.getElementById('preview-profil-avatar').src = curAvatar;
+            document.getElementById('edit-nama-profil').value = name;
+            document.getElementById('edit-email-profil').value = email;
+            document.getElementById('edit-role-profil').value = document.getElementById('profile-detail-role').innerText;
+            document.getElementById('edit-wilayah-profil').value = document.getElementById('profile-detail-wilayah').innerText;
+            document.getElementById('preview-profil-avatar').src = avatar;
 
             document.getElementById('modal-edit-profil').classList.remove('hidden');
         }
@@ -2256,77 +2018,169 @@
 
         function submitEditProfil(e) {
             e.preventDefault();
-            const name = document.getElementById('edit-nama-profil').value;
-            const email = document.getElementById('edit-email-profil').value;
-            const role = document.getElementById('edit-role-profil').value;
-            const wilayah = document.getElementById('edit-wilayah-profil').value;
+            const name = document.getElementById('edit-nama-profil').value.trim();
+            const email = document.getElementById('edit-email-profil').value.trim();
+            const role = document.getElementById('edit-role-profil').value.trim();
+            const wilayah = document.getElementById('edit-wilayah-profil').value.trim();
             const avatar = document.getElementById('preview-profil-avatar').src;
 
             updateUserProfileUI(name, email, avatar, role, wilayah);
-
-            const userData = { name, email, avatar, role, wilayah };
-            localStorage.setItem(STORAGE_KEY_AUTH, JSON.stringify(userData));
-
             closeModalEditProfil();
+            showModernAlert("Profil Diperbarui", "Informasi profil admin berhasil diperbarui.", "success");
+        }
+
+        function changeUserPassword(e) {
+            e.preventDefault();
+            const u = document.getElementById('change-username').value.trim();
+            const p = document.getElementById('change-password').value.trim();
+
+            localStorage.setItem(STORAGE_KEY_CREDENTIALS, JSON.stringify({ username: u, password: p }));
+            showModernAlert("Kredensial Diperbarui", "Username dan password baru berhasil disimpan. Gunakan kredensial ini untuk login berikutnya.", "success");
+            e.target.reset();
         }
 
         function simpanPengaturan(e) {
             e.preventDefault();
-            const statusVal = document.getElementById('setting-status-pilih').value;
-            document.getElementById('text-status-sistem').innerText = `Status: Pemungutan Suara ${statusVal}`;
-            saveSystemState();
-            alert('Pengaturan berhasil disimpan!');
+            showModernAlert("Pengaturan Disimpan", "Konfigurasi sistem pemilihan berhasil diperbarui.", "success");
         }
 
         function resetAllDataSystem() {
-            const pwd = prompt("PERINGATAN BAHAYA!\nSemua data (Kandidat, DPT, Suara Masuk) akan dihapus secara permanen.\nMasukkan password admin untuk melanjutkan:");
-            const creds = getCredentials();
-            
-            if (pwd === creds.password) {
-                localStorage.removeItem(STORAGE_KEY_VOTES);
-                localStorage.removeItem(STORAGE_KEY_KANDIDAT);
-                localStorage.removeItem(STORAGE_KEY_DPT);
-                localStorage.removeItem(STORAGE_KEY_SETTINGS);
-                alert("Semua data berhasil direset. Halaman akan dimuat ulang.");
+            showModernConfirm("Konfirmasi Reset Sistem", "Apakah Anda yakin ingin mereset seluruh data sistem ke pengaturan awal?", "Ya, Reset", "Batal", function() {
+                localStorage.clear();
                 location.reload();
-            } else if (pwd !== null) {
-                alert("Password salah. Reset dibatalkan.");
+            });
+        }
+
+        // ==================== CHARTS & METRICS INITIALIZATION ====================
+        function initDashboardCharts() {
+            // Quick Count Chart
+            const ctxQuick = document.getElementById('quickCountChart');
+            if(ctxQuick) {
+                quickCountChart = new Chart(ctxQuick.getContext('2d'), {
+                    type: 'bar',
+                    data: {
+                        labels: ['Paslon 01 (H. Budi)', 'Paslon 02 (Drs. Ahmad)', 'Paslon 03 (Hj. Ratna)'],
+                        datasets: [{
+                            label: 'Perolehan Suara',
+                            data: voteData,
+                            backgroundColor: ['#6366f1', '#10b981', '#f59e0b'],
+                            borderRadius: 12
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        scales: { y: { beginAtZero: true } }
+                    }
+                });
+            }
+
+            // Rekap Doughnut Chart
+            const ctxDoughnut = document.getElementById('rekapDoughnutChart');
+            if(ctxDoughnut) {
+                rekapDoughnutChart = new Chart(ctxDoughnut.getContext('2d'), {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Paslon 01', 'Paslon 02', 'Paslon 03'],
+                        datasets: [{
+                            data: voteData,
+                            backgroundColor: ['#6366f1', '#10b981', '#f59e0b']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false
+                    }
+                });
+            }
+
+            // Rekap Bar Chart RT
+            const ctxBar = document.getElementById('rekapRtBarChart');
+            if(ctxBar) {
+                rekapRtBarChart = new Chart(ctxBar.getContext('2d'), {
+                    type: 'bar',
+                    data: {
+                        labels: ['RT 01', 'RT 02', 'RT 03', 'RT 04', 'RT 05'],
+                        datasets: [
+                            { label: 'Paslon 01', data: [110, 100, 90, 95, 85], backgroundColor: '#6366f1' },
+                            { label: 'Paslon 02', data: [80, 75, 70, 75, 70], backgroundColor: '#10b981' },
+                            { label: 'Paslon 03', data: [22, 5, 0, 0, 0], backgroundColor: '#f59e0b' }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true } }
+                    }
+                });
             }
         }
 
-        // Timer Countdown Sisa Waktu
-        function startTimer() {
-            const timerElem = document.getElementById('timer-sisa-waktu');
-            let totalSeconds = 3 * 3600 + 45 * 60; // 3j 45m mockup
+        function updateDashboardMetrics() {
+            const totalSuara = voteData.reduce((a, b) => a + b, 0);
+            const belumMemilih = Math.max(0, totalDptCount - totalSuara);
+            const persenMasuk = Math.round((totalSuara / totalDptCount) * 100);
+            const persenBelum = 100 - persenMasuk;
+
+            if(document.getElementById('metric-suara-masuk')) document.getElementById('metric-suara-masuk').innerText = totalSuara.toLocaleString();
+            if(document.getElementById('metric-persen-masuk')) document.getElementById('metric-persen-masuk').innerText = `(${persenMasuk}%)`;
             
-            setInterval(() => {
-                if(totalSeconds <= 0) return;
-                totalSeconds--;
-                const h = Math.floor(totalSeconds / 3600);
-                const m = Math.floor((totalSeconds % 3600) / 60);
-                const s = totalSeconds % 60;
-                timerElem.innerText = `${h.toString().padStart(2,'0')} : ${m.toString().padStart(2,'0')} : ${s.toString().padStart(2,'0')}`;
-            }, 1000);
+            if(document.getElementById('metric-belum-memilih')) document.getElementById('metric-belum-memilih').innerText = belumMemilih.toLocaleString();
+            if(document.getElementById('metric-persen-belum')) document.getElementById('metric-persen-belum').innerText = `(${persenBelum}%)`;
+
+            if(document.getElementById('total-suara-sah')) document.getElementById('total-suara-sah').innerText = totalSuara.toLocaleString();
+            if(document.getElementById('rekap-paslon1-count')) document.getElementById('rekap-paslon1-count').innerText = voteData[0].toLocaleString();
+            
+            const maxVote = Math.max(...voteData);
+            const winnerIdx = voteData.indexOf(maxVote);
+            const winnerNames = ["H. Budi Santoso, S.T.", "Drs. Ahmad Wijaya", "Hj. Ratna Sari, M.Pd."];
+            const winnerImgs = [
+                "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+                "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+                "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+            ];
+            
+            if(document.getElementById('winner-name')) document.getElementById('winner-name').innerText = winnerNames[winnerIdx] || "H. Budi Santoso, S.T.";
+            if(document.getElementById('winner-img')) document.getElementById('winner-img').src = winnerImgs[winnerIdx] || winnerImgs[0];
+            if(document.getElementById('winner-no')) document.getElementById('winner-no').innerText = `0${winnerIdx + 1}`;
+
+            const winPercent = totalSuara > 0 ? ((maxVote / totalSuara) * 100).toFixed(1) : 0;
+            if(document.getElementById('winner-percentage')) document.getElementById('winner-percentage').innerText = `${winPercent}%`;
+            if(document.getElementById('winner-progress')) document.getElementById('winner-progress').style.width = `${winPercent}%`;
+
+            if(document.getElementById('rekap-partisipasi-persen')) document.getElementById('rekap-partisipasi-persen').innerText = `${persenMasuk}%`;
+            if(document.getElementById('rekap-partisipasi-detail')) document.getElementById('rekap-partisipasi-detail').innerText = `${totalSuara} dari ${totalDptCount} DPT Memilih`;
+            
+            if(document.getElementById('rekap-golput-persen')) document.getElementById('rekap-golput-persen').innerText = `${persenBelum}%`;
+            if(document.getElementById('rekap-golput-detail')) document.getElementById('rekap-golput-detail').innerText = `${belumMemilih} Orang Belum Memilih`;
+
+            if(quickCountChart) {
+                quickCountChart.data.datasets[0].data = voteData;
+                quickCountChart.update();
+            }
+            if(rekapDoughnutChart) {
+                rekapDoughnutChart.data.datasets[0].data = voteData;
+                rekapDoughnutChart.update();
+            }
         }
 
-        // ==================== INISIALISASI SAAT HALAMAN DIMUAT ====================
-        window.addEventListener('DOMContentLoaded', () => {
-            const authData = localStorage.getItem(STORAGE_KEY_AUTH);
-            if (authData) {
-                const user = JSON.parse(authData);
-                updateUserProfileUI(user.name, user.email, user.avatar, user.role, user.wilayah);
-                document.getElementById('login-screen').classList.add('hidden');
-                document.getElementById('main-dashboard').classList.remove('hidden');
-                
-                loadSavedState();
-                initCharts();
-                renderBilikKandidat();
-                updateMetrics();
-                renderDptPagination();
+        // Auto Check Session on Load
+        window.onload = function() {
+            const session = localStorage.getItem(STORAGE_KEY_AUTH);
+            if(session) {
+                try {
+                    const userData = JSON.parse(session);
+                    updateUserProfileUI(userData.name, userData.email, userData.avatar, userData.role, userData.wilayah);
+                    document.getElementById('login-screen').classList.add('hidden');
+                    document.getElementById('main-dashboard').classList.remove('hidden');
+                    initDashboardCharts();
+                    renderBilikKandidat();
+                } catch(e) {
+                    console.error(e);
+                }
             }
-            startTimer();
-        });
-
+        };
     </script>
 </body>
 </html>
